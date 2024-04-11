@@ -1,38 +1,34 @@
-# Controle de Cruzamento Ferroviário
+# Projeto Cruzamento de Carros e Pedestres
 
-Este programa simula o comportamento de um cruzamento ferroviário controlado por semáforos para garantir a passagem segura dos trens. Os trens podem se aproximar do cruzamento pelas vias A1 ou B1 e seguir para as vias A2 ou B2. 
+Este projeto implementa a lógica de controle de um cruzamento de carros e pedestres utilizando o Supremica, uma ferramenta para modelagem e análise de funções de controle de eventos discretos com base em modelos.
+
+![Visão Geral](https://i.imgur.com/ume3ff2.png)
 
 ## Funcionalidades
 
-- **Modelagem dos Trens:** Cada trem é representado por uma thread e pode ter uma das três prioridades: alta(3), média(2) ou baixa(1).
-- **Controle de Acesso:** O acesso ao cruzamento é controlado por semáforos. Apenas um trem pode passar pelo cruzamento por vez.
-- **Priorização:** Trens com prioridade mais alta têm preferência para cruzar o cruzamento.
-- **Interface de Usuário:** O programa exibe mensagens indicando o estado atual dos trens e a situação do cruzamento.
+- Controle de dois semáforos para carros e dois semáforos para pedestres.
+- Interconexão entre os semáforos para evitar comportamentos proibidos, como ambos os semáforos ficarem verdes simultaneamente ou um semáforo de carros e um de pedestres ficarem verdes ao mesmo tempo.
+- Lógica para permitir que um pedestre possa acionar um botão para fechar o semáforo de carros mais rapidamente, mudando-o de verde para amarelo e prolongando o tempo de fechamento caso já esteja fechado.
 
-## Como Usar
+## Topologia do Cruzamento
 
-1. Compile o programa utilizando um compilador C.
-2. Execute o programa.
-3. Observe a saída para acompanhar o comportamento dos trens e do cruzamento.
+![Topologia do Cruzamento](https://i.imgur.com/49DzwJG.png)
 
-## Requisitos
+## Supervisor Sintetizado
 
-- Compilador C
-- Sistema operacional Linux
-
-## Exemplo de Saída
-
-Trem 1 (Prioridade 2) está se aproximando do cruzamento vindo de A1 e indo para A2.
-Trem 2 (Prioridade 1) está se aproximando do cruzamento vindo de B1 e indo para B2.
-Trem 1 está cruzando o cruzamento.
-Trem 1 cruzou o cruzamento.
-Trem 2 está cruzando o cruzamento.
-Trem 2 cruzou o cruzamento.
-
-## Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+![Supervisor Sintetizado](https://i.imgur.com/d5qacs9.png)
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
+Este projeto está licenciado sob a [Licença MIT](LICENSE). Consulte o arquivo `LICENSE` para obter detalhes.
+
+## Contribuindo
+
+Contribuições são bem-vindas! Sinta-se á  vontade para abrir uma issue ou enviar um pull request.
+
+
+## Autores
+
+Este projeto foi desenvolvido por:
+Ádson Vital Correia
+Francisco Olimpio Ferreira da Silva.

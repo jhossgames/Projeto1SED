@@ -62,5 +62,6 @@ Contribuições são bem-vindas! Sinta-se á  vontade para abrir uma issue ou e
 ## Autores
 
 Este projeto foi desenvolvido por:
-Ádson Vital Correia (adson.correia@ee.ufcg.edu.br);
+Ádson Vital Correia (adson.correia@ee.ufcg.edu.br)&
+
 Francisco Olimpio Ferreira da Silva. (francisco.silva@ee.ufcg.edu.br).

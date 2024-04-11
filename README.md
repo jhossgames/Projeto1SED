@@ -30,5 +30,5 @@ Contribuições são bem-vindas! Sinta-se á  vontade para abrir uma issue ou e
 ## Autores
 
 Este projeto foi desenvolvido por:
-Ádson Vital Correia
+Ádson Vital Correia &
 Francisco Olimpio Ferreira da Silva.

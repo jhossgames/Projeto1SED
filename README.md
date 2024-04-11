@@ -16,9 +16,39 @@ Este projeto busca desenvolver um sistema de controle de tráfego eficiente que 
 
 ![Topologia do Cruzamento](https://i.imgur.com/49DzwJG.png)
 
-## Supervisor Sintetizado
+  Para modelagem do sistema, primeiramente foi desenvolvido o diagrama acima, relacionamos os estados de cada semáforo independente com os estados esperados de seus pares, a fim de minimizar erros durante o desenvolvimento. 
+  Podemos perceber que nunca dois semáforos estarão permitindo a passagem de fluxo ao mesmo tempo. Assim, temos os seguintes eventos controláveis no sistema:
+  - Estágio 1-2: Liberação dos veículos do semáforo 2, Semáforo pedestre 1 liberado;
+  - Estágio 2-3: Alerta para os veículos do semáforo 2, preparação para liberação do semáforo 1;
+  - Estágio 3-4: Liberação dos veículos do semáforo 1, Semáforo pedestre 2 liberado;
+  - Estágio 4-1: Alerta para os veículos do semáforo 2, preparação para liberação do semáforo 1.
+    
+  Além disso, consideramos que os estágios onde ocorrem o amarelo em algum dos semáforos são estados fundamentais para a segurança dos usuários, portanto, para que não ocorram erros, não sofreram alterações dos eventos não controláveis.   
+  Ainda temos eventos não controláveis, como os botões de travessia dos pedestres e o surgimento de veículos de emergência, que podem ser ativados nos seguites estágios:
+  - Botão S1:
+    - Estágio 4: Botão_S1 aciona a mudança de estágio 4-1;
+    - Estágio 2: Botão_S1 aciona a manutenção do estágio 2.
+  - Botão S2:
+    - Estágio 2: Botão_S2 aciona a mudança de estágio 2-3;
+    - Estágio 4: Botão_S2 aciona a manutenção do estágio 4.
+  - Emergência no semáforo 1:
+    - Estágio 2: Emergência_S1 aciona a mudança de estágio 2-3;
+    - Estágio 4: Emergência_S1 aciona a manutenção do estágio 4.
+  - Emergência no semáforo 2:
+    - Estágio 4: Emergência_S2 aciona a mudança de estágio 4-1;
+    - Estágio 2: Emergência_S2 aciona a manutenção do estágio 2.
+      
+## Construção dos Autômatos
 
+ Com a topologia e os eventos controláveis ou não definidos podemos utilizar o software SUPREMICA para construção dos autômatos de acordo com o funcionamento estabelecidos. Criado um novo projeto e adicionando os eventos, podemos criar as 4 plantas necessárias. Assim temos:
+ 
+
+## Supervisor Sintetizado
+  Com todos as plantas executadas e com o correto funcionamento, podemos utilizar o software para criar o supervisor de forma automatizada. Assim temos:
 ![Supervisor Sintetizado](https://i.imgur.com/d5qacs9.png)
+
+  Podemos utilizar o Software para a simulação do supervisório, constatando-se o correto funcionamento do sistemas de semáforos.
+  Para a simulação, basta abrir o arquivo
 
 ## Licença
 
@@ -32,5 +62,5 @@ Contribuições são bem-vindas! Sinta-se á  vontade para abrir uma issue ou e
 ## Autores
 
 Este projeto foi desenvolvido por:
-Ádson Vital Correia &
-Francisco Olimpio Ferreira da Silva.
+Ádson Vital Correia (adson.correia@ee.ufcg.edu.br) &
+Francisco Olimpio Ferreira da Silva. (francisco.silva@ee.ufcg.edu.br)

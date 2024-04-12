@@ -65,9 +65,12 @@ Este projeto busca desenvolver um sistema de controle de tráfego eficiente que 
   Para visualizar a simulação do supervisório:
 
   [![Veja a simulação](https://i.imgur.com/XllV2DE.png)](https://youtu.be/ni8EY2Vam8o)
-  
+## Análise
+Uma importante ferramenta que o SUPREMICA fornece aos usuários é a possibilidade da verificação do sistema para saber se é não-bloqueante, controlável e outras demais opções. Após todo o desenvolvimento dos automatos e seu supervisor, foi verificado com sucesso que o autômato é controlável e não-bloqueante.
+![Verificação](https://github.com/jhossgames/Projeto1SED/blob/main/Imagens/verifica%C3%A7%C3%A3o.png?raw=true)
+
 ## Conclusão
-  Podemos concluir que a síntese de um automato supervisório para o controle de um cruzamento de semáforos foi concluido com sucesso. Permitindo o tráfego seguro de todos os usuários e priorizando a passagem de veículos de emergência.
+  Podemos concluir que a síntese de um automato supervisório para o controle de um cruzamento de semáforos através do software supremica, foi concluido com processo. Permitindo o tráfego seguro de todos os usuários e priorizando a passagem de veículos de emergência.
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE). Consulte o arquivo `LICENSE` para obter detalhes.

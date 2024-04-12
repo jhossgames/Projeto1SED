@@ -4,7 +4,7 @@
 
 Este projeto busca desenvolver um sistema de controle de tráfego eficiente que gerencie o fluxo de pedestres e veículos, minimizando o tempo de espera e evitando congestionamentos no software SUPREMICA, uma ferramenta para modelagem e análise de funções de controle de eventos discretos com base em modelos. Como prioridade fundamental, o sistema foi pensado para garantir a segurança de todos os usuários. 
 
-![Visão Geral](https://raw.githubusercontent.com/jhossgames/Projeto1SED/main/imagens/Captura%20de%20tela%202024-04-12%20003145.png)
+![Visão Geral](https://github.com/jhossgames/Projeto1SED/blob/main/Imagens/INICIO.png?raw=true)
 
 ## Funcionalidades
 
@@ -43,22 +43,22 @@ Este projeto busca desenvolver um sistema de controle de tráfego eficiente que 
  Com a topologia e os eventos controláveis ou não definidos podemos utilizar o software SUPREMICA para construção dos autômatos de acordo com o funcionamento estabelecidos. Criado um novo projeto e adicionando os eventos, podemos criar as 4 plantas necessárias. Assim temos: 
  
  Autômato do semáforo 1:
- ![automato S1](https://github.com/jhossgames/Projeto1SED/blob/main/imagens/Automatos1.1.png?raw=true)
+ ![automato S1](https://github.com/jhossgames/Projeto1SED/blob/main/Imagens/S1.png?raw=true)
  
  Autômato do semáforo de pedestres 1:
- ![automato P1](https://github.com/jhossgames/Projeto1SED/blob/main/imagens/AutomatoP1.png?raw=true)
+ ![automato P1](https://github.com/jhossgames/Projeto1SED/blob/main/Imagens/P1.png?raw=true)
  
  Autômato do semáforo 2:
-  ![automato S2](https://github.com/jhossgames/Projeto1SED/blob/main/imagens/AutomatoS2.png?raw=true)
+  ![automato S2](https://github.com/jhossgames/Projeto1SED/blob/main/Imagens/s2.png?raw=true)
   
-   Autômato do semáforo de pedestres 1:
- ![automato P2](https://github.com/jhossgames/Projeto1SED/blob/main/imagens/AutomatoP2.png?raw=true)
+   Autômato do semáforo de pedestres 2:
+ ![automato P2](https://github.com/jhossgames/Projeto1SED/blob/main/Imagens/P2.png?raw=true)
 
 
 ## Supervisor Sintetizado
   Com todos as plantas executadas e com o correto funcionamento, podemos utilizar o software para criar o supervisor de forma automatizada. Assim temos:
   
-![Supervisor Sintetizado](https://github.com/jhossgames/Projeto1SED/blob/main/imagens/AutomatoSupervis%C3%B3rio.png?raw=true)
+![Supervisor Sintetizado](https://github.com/jhossgames/Projeto1SED/blob/main/Imagens/SUPERVISORIO.png?raw=true)
 
   Podemos utilizar o Software para a simulação do supervisório, constatando-se o correto funcionamento do sistemas de semáforos.
   Para a simulação, basta abrir o arquivo Projeto1_SED_Adson_Francisco.wmod no software SUPREMICA, recomenda-se abrir o arquivo diretamente pelo supremica.jar.
@@ -78,6 +78,8 @@ Contribuições são bem-vindas! Sinta-se á  vontade para abrir uma issue ou e
 ## Autores
 
 Este projeto foi desenvolvido por:
+
+
 Ádson Vital Correia (adson.correia@ee.ufcg.edu.br); 
 
 Francisco Olimpio Ferreira da Silva. (francisco.silva@ee.ufcg.edu.br).

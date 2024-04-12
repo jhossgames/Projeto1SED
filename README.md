@@ -4,7 +4,7 @@
 
 Este projeto busca desenvolver um sistema de controle de tráfego eficiente que gerencie o fluxo de pedestres e veículos, minimizando o tempo de espera e evitando congestionamentos no software SUPREMICA, uma ferramenta para modelagem e análise de funções de controle de eventos discretos com base em modelos. Como prioridade fundamental, o sistema foi pensado para garantir a segurança de todos os usuários. 
 
-![Visão Geral](https://i.imgur.com/ume3ff2.png)
+![Visão Geral](https://raw.githubusercontent.com/jhossgames/Projeto1SED/main/imagens/Captura%20de%20tela%202024-04-12%20003145.png)
 
 ## Funcionalidades
 

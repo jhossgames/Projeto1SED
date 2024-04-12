@@ -45,7 +45,8 @@ Este projeto busca desenvolver um sistema de controle de tráfego eficiente que 
 
 ## Supervisor Sintetizado
   Com todos as plantas executadas e com o correto funcionamento, podemos utilizar o software para criar o supervisor de forma automatizada. Assim temos:
-![Supervisor Sintetizado](https://i.imgur.com/d5qacs9.png)
+  
+![Supervisor Sintetizado](https://github.com/jhossgames/Projeto1SED/blob/main/imagens/AutomatoSupervis%C3%B3rio.png?raw=true)
 
   Podemos utilizar o Software para a simulação do supervisório, constatando-se o correto funcionamento do sistemas de semáforos.
   Para a simulação, basta abrir o arquivo

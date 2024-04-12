@@ -64,9 +64,7 @@ Este projeto busca desenvolver um sistema de controle de tráfego eficiente que 
   Para a simulação, basta abrir o arquivo Projeto1_SED_Adson_Francisco.wmod no software SUPREMICA, recomenda-se abrir o arquivo diretamente pelo supremica.jar.
   Para visualizar a simulação do supervisório:
 
-<iframe id="ytplayer" type="text/html" width="720" height="405"
-src="https://www.youtube.com/embed/BD0vukRS0nE"
-frameborder="0" allowfullscreen>
+  [![Veja a simulação](https://i.imgur.com/XllV2DE.png)](https://www.youtube.com/watch?v=BD0vukRS0nE)
 
 ## Licença
 

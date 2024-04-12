@@ -1,4 +1,4 @@
-# Projeto Cruzamento de Carros e Pedestres
+![image](https://github.com/jhossgames/Projeto1SED/assets/102930369/04e1f0e4-5056-4cf9-b3e6-59135690c863)# Projeto Cruzamento de Carros e Pedestres
 
 ## Descrição
 
@@ -41,7 +41,15 @@ Este projeto busca desenvolver um sistema de controle de tráfego eficiente que 
 ## Construção dos Autômatos
 
  Com a topologia e os eventos controláveis ou não definidos podemos utilizar o software SUPREMICA para construção dos autômatos de acordo com o funcionamento estabelecidos. Criado um novo projeto e adicionando os eventos, podemos criar as 4 plantas necessárias. Assim temos:
- 
+ Autômato do semáforo 1:
+ ![automato S1](https://github.com/jhossgames/Projeto1SED/blob/main/imagens/Automatos1.1.png?raw=true)
+ Autômato do semáforo de pedestres 1:
+ ![automato P1](https://github.com/jhossgames/Projeto1SED/blob/main/imagens/AutomatoP1.png?raw=true)
+ Autômato do semáforo 2:
+  ![automato S2](https://github.com/jhossgames/Projeto1SED/blob/main/imagens/AutomatoS2.png?raw=true)
+   Autômato do semáforo de pedestres 1:
+ ![automato P2](https://github.com/jhossgames/Projeto1SED/blob/main/imagens/AutomatoP2.png?raw=true)
+
 
 ## Supervisor Sintetizado
   Com todos as plantas executadas e com o correto funcionamento, podemos utilizar o software para criar o supervisor de forma automatizada. Assim temos:
